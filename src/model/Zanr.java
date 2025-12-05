@@ -4,6 +4,8 @@
  */
 package model;
 
+import java.awt.geom.NoninvertibleTransformException;
+
 /**
  *
  * @author korisnik
@@ -14,4 +16,8 @@ public enum Zanr {
     ISTORIJSKI,
     NAUCNA_FANTASTIKA,
     DETEKTIVSKI,
+    Novel,
+    Tragedy,
+    Historical_Novel,
+
 }
